@@ -1,0 +1,10 @@
+cabal-version:      2.4
+name:               cabal-configure-pwd-issue-repro
+version:            0.1.0.0
+build-type:         Configure
+
+library
+    exposed-modules:  MyLib
+    build-depends:    base ^>=4.15.0.0
+    hs-source-dirs:   src
+    default-language: Haskell2010
